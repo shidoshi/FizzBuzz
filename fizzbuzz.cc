@@ -18,9 +18,11 @@ int main ()
             {
                 printf("Fizz (%i) ", x);
             }
-            if ((x%5) == 0)
-            {
+            else if ((x%5) == 0){
                 printf("Buzz (%i) ", x);
+            }
+            else {
+                printf("%i ", x);
             }
          }
      }
